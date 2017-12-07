@@ -4,4 +4,15 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.8	//
+X	../plot_weighted_samples.py	/^X = np.r_[np.random.randn(10, 2) + [1, 1], np.random.randn(10, 2)]$/;"	kind:variable	line:26
+clf_no_weights	../plot_weighted_samples.py	/^clf_no_weights = svm.SVC()$/;"	kind:variable	line:40
+clf_weights	../plot_weighted_samples.py	/^clf_weights = svm.SVC()$/;"	kind:variable	line:37
+matplotlib	../plot_weighted_samples.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:4
+np	../plot_weighted_samples.py	/^import numpy as np$/;"	kind:namespace	line:3
+plot_decision_function	../plot_weighted_samples.py	/^def plot_decision_function(classifier, sample_weight, axis, title):$/;"	kind:function	line:8
 plot_weighted_samples.py	../plot_weighted_samples.py	1;"	kind:file	line:1
+plt	../plot_weighted_samples.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:4
+sample_weight_constant	../plot_weighted_samples.py	/^sample_weight_constant = np.ones(len(X))$/;"	kind:variable	line:29
+sample_weight_last_ten	../plot_weighted_samples.py	/^sample_weight_last_ten = abs(np.random.randn(len(X)))$/;"	kind:variable	line:28
+svm	../plot_weighted_samples.py	/^from sklearn import svm$/;"	kind:namespace	line:5
+y	../plot_weighted_samples.py	/^y = [1] * 10 + [-1] * 10$/;"	kind:variable	line:27
